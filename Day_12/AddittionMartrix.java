@@ -9,18 +9,19 @@ public class AddittionMartrix {
         int matrixB[][] = new int[2][3];
         int sum[][] = new int[2][3];
 
-        System.out.println("Enter elements of first matrix:");
+        System.out.println("Enter element of first matrix:");
         for(int i=0; i<2; i++){
             for(int j=0; j<3; j++){
                 matrixA[i][j] = input.nextInt();
             }
         }
 
-        System.out.println("Enter elements of second matrix:");
+        System.out.println("Enter element of second matrix:");
         for(int i=0; i<2; i++){
             for(int j=0; j<3; j++){
                 matrixB[i][j] = input.nextInt();
             }
+
         }
 
         for(int i=0; i<2; i++){
